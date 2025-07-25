@@ -1,5 +1,52 @@
+@font-face {
+    font-family: "police";
+    src: url("eval1.otf");
+}
+
+
 *{
+
     margin : 0;
     padding : 0;
     box-sizing: border-box;
 }
+
+#logo {
+        width: 200px;
+        display: block;
+        padding-top: 5%;
+}
+nav {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        background-color: black;
+        height: 100vh;
+        width: 20%;
+
+}
+#nav-bar {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50vh;
+}
+.nav-button {
+        font-size: 1,5rem;
+        color: gold;
+        border-radius: 10px;
+}
+
+.nav-button:hover{
+        background-color: black ;
+        color: gold;
+        border: solid color();
+        box-shadow: 5px 5px 15px 0px;
+        
+ }
+#prepanum {
+    color: gold;
+}
+
