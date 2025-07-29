@@ -48,6 +48,7 @@ nav {
  }
 #prepanum {
     color: gold;
+    font-size: 2.5rem;
 }
 #rangement {
         display: flex;
@@ -62,9 +63,25 @@ nav {
 
 h2 {
         color: gold;
-        font: 2rem;
+        font-size: 3.5rem;
+        margin-top: 30px;
         margin-bottom: 30px;
+        text-align: center;
 }
+#image1 {
+        width: 30%;
+}
+#image2 {
+        width: 30%;
+}
+#text1 {
+        box-shadow: black 2px 2px 5px 0px;
+        font-size: 0.8rem;
+}
+article {
+       
+}
+
 
         
 
